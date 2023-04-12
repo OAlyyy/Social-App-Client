@@ -26,7 +26,7 @@ function Post() {
   const addComment = () => {
     axios
       .post(
-        "https://social-app-oalyyy.herokuapp.com/",
+        "https://social-app-oalyyy.herokuapp.com/comments",
         {
           commentBody: newComment,
           PostId: id,
