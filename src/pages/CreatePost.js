@@ -29,7 +29,7 @@ function CreatePost() {
   const onSubmit = (data) => {
     axios
       .post(
-        "http://localhost:3001/posts",
+        "https://social-app-oalyyy.herokuapp.com/posts",
         data,
         {
           headers: {

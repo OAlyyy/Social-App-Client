@@ -12,7 +12,7 @@ let history = useHistory();
   const changePassword = () => {
     axios 
       .put(
-        "http://localhost:3001/auth/changeauth",
+        "https://social-app-oalyyy.herokuapp.com/auth/changeauth",
         {
           oldPassword: oldPassword,
           newPassword: newPassword,

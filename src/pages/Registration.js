@@ -20,7 +20,7 @@ function Registration() {
 
   const onSubmit = (data)=> {
 
-    axios.post("http://localhost:3001/auth", data).then(() => { // add to data base , we need axioms library btw
+    axios.post("https://social-app-oalyyy.herokuapp.com/auth", data).then(() => { // add to data base , we need axioms library btw
     history.push("/login");
   });
   };

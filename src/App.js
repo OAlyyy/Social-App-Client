@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/auth/auth", {
+      .get("https://social-app-oalyyy.herokuapp.com/", {
         headers: {
           accessToken: localStorage.getItem("accessToken"),
         },
